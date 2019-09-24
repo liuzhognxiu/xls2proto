@@ -1,0 +1,21 @@
+(1)安装工具
+1.安装Python
+
+2.安装TortoiseSVN
+
+3. 设置环境变量 （Python安装目录）、（TortoiseSVN安装目录）
+   
+4.安装 xlrd-0.7.9.win32.msi，目录选择Python的安装目录，例如F:\JinZhengXin\SoftInstall\python(特别注意 Python2.7设置的目录要和xlrd-0.7.9.win32.msi一样 不然不能安装成功)
+5 安装 protobuf-net-VS10.msi，设置该目录的环境变量 
+6.解压 protobuf-2.4.1.tar.bz2 到 任意目录下
+
+7 cmd到第6步目录下\protobuf-2.4.1\python（执行这步之前注意重启cmd）
+执行命令：setup.py install
+8 重启Unity
+
+注：设置环境变量
+系统环境变量->Path双击 例如：在原先的字符串后面追加“;C:\Program Files\TortoiseSVN\bin;C:\Python27;C:\Program Files (x86)\protobuf-net\protobuf-net-VS9\”
+注意没有双引号。
+
+
+
